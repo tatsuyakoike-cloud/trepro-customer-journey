@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="detail-page">
 
 <header class="site-header">
   <div class="site-header-inner">
@@ -18,8 +18,7 @@
       <span class="brand-ja">採用カスタマージャーニー</span>
     </a>
     <div class="site-header-meta">
-      <a class="back-link" href="index.html">← 一覧へ</a>
-      <span class="header-date">2026-06-22　v2.0</span>
+      <a class="btn-back" href="index.html">← 一覧に戻る</a>
     </div>
   </div>
 </header>
@@ -40,7 +39,274 @@
 </div>
 
 <div class="wrapper">
-<div class="tbl-wrap">
+
+<div class="mobile-cjm">
+  <p class="swipe-hint"><span class="swipe-icon">↔</span> 左右にスワイプして各ステップを見る</p>
+  <div class="phase-scroll" id="phaseScroll">
+    <article class="phase-card" data-phase="0">
+      <header class="phase-card-head p1">
+        <span class="phase-num">Step 1</span>
+        <span class="phase-name">日常</span>
+        <span class="phase-score">感情 2/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>転職サイトやSNSで高収入・未経験営業・マーケ求人を検索</li><li>現職の収入や将来性に不満</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「今のままではまずい」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">😰</span><span class="emo-label">焦り</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pB">Indeed</span><span class="pill pA">求人検索</span><span class="pill pF">SNS</span><span class="pill pF">友人</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">未経験営業層はスマホ検索・求人アプリ経由が多く、即時性が重要</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dr">●</span>未経験層は『営業＝きつい』という不安が強い</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">『未経験から営業の型を学べる』訴求を追加</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="1">
+      <header class="phase-card-head p2">
+        <span class="phase-num">Step 2</span>
+        <span class="phase-name">認知</span>
+        <span class="phase-score">感情 6/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>『月給30万円』『未経験OK』『人生を変える』『SNSマーケ』の求人に反応</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「30万円スタートは大きい」</li><li>「未経験でも本当にいける？」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">⚡</span><span class="emo-label">期待</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pA">求人タイトル</span><span class="pill pA">スカウト</span><span class="pill pF">広告</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">高収入訴求から仕事内容にすぐ遷移できないと怪しく見える</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dr">●</span>高収入訴求だけだと怪しく見える可能性</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">月給30万円の理由を、事業成長・役割期待・評価制度と紐づけて説明</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="2">
+      <header class="phase-card-head p3">
+        <span class="phase-num">Step 3</span>
+        <span class="phase-name">興味</span>
+        <span class="phase-score">感情 7/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>仕事内容、インセンティブ、チームの雰囲気、研修、求める人物像を確認</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「SNSに投稿するだけではなく、結果を出す支援なら学びがありそう」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">🔥</span><span class="emo-label">前向きな興奮</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pA">求人詳細</span><span class="pill pF">会社HP</span><span class="pill pF">オフィス写真</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">研修・未経験OK・成果事例の順で読める導線が必要</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dy">●</span>仕事内容が営業担当と営業アシスタントで曖昧に見える</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">営業/営業アシスタントの業務範囲を分けて記載</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="3">
+      <header class="phase-card-head p4">
+        <span class="phase-num">Step 4</span>
+        <span class="phase-name">検討</span>
+        <span class="phase-score">感情 6/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>他の営業求人と比較</li><li>商材の強さ、社風、成果評価、厳しさを検討</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「成果主義は怖いが、役職を狙えるなら挑戦したい」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">😟</span><span class="emo-label">不安と覚悟</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pF">給与条件</span><span class="pill pF">研修制度</span><span class="pill pF">社員の雰囲気</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">インセンティブや評価制度が見えないと検討で止まる</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dy">●</span>インセンティブの仕組みや評価基準が不明だと不安</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">インセンティブ例、昇格例、半年〜1年の成長イメージを提示</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="4">
+      <header class="phase-card-head p5">
+        <span class="phase-num">Step 5</span>
+        <span class="phase-name">応募</span>
+        <span class="phase-score">感情 7/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>勢いで応募しつつ、PC操作や営業経験の不足を補う自己PRを考える</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「話を聞くだけでもOKなら応募しやすい」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">💨</span><span class="emo-label">勢い</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pE">応募フォーム</span><span class="pill pE">面談予約</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">フォームは中程度の負荷でよい</div><div class="ux">営業経験必須に見せず、接客/販売/PC経験も入力できる設計にする</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dr">●</span>応募時に営業経験がないことを気にして離脱</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">応募ハードルを下げるため『接客・販売・CS経験も歓迎』を明記</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="5">
+      <header class="phase-card-head p6">
+        <span class="phase-num">Step 6</span>
+        <span class="phase-name">面談</span>
+        <span class="phase-score">感情 6/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>会社ビジョン、営業スタイル、ナーチャリング/問い合わせ対応、素直さ・誠実さを確認</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「根性論だけでなく育成してくれるか」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">😬</span><span class="emo-label">緊張</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pE">オンライン面談</span><span class="pill pF">会社説明</span><span class="pill pF">営業責任者</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">応募後すぐに面談候補日を出せる導線が重要</div><div class="ux">Excel上でも先方連絡待ちが発生しているため、連絡遅延を減らす</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dr">●</span>面談で勢いだけの候補者を見極める必要</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">面談では素直さ、行動量、報連相、成長意欲を重点確認</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="6">
+      <header class="phase-card-head p7">
+        <span class="phase-num">Step 7</span>
+        <span class="phase-name">就職</span>
+        <span class="phase-score">感情 8/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>営業/マーケ担当として問い合わせ対応、提案資料作成、顧客管理から経験を積む</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「結果を出せば人生を変えられるかもしれない」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">🎯</span><span class="emo-label">挑戦意欲</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pF">CRM</span><span class="pill pF">提案資料</span><span class="pill pF">研修</span><span class="pill pF">チーム定例</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">初月のロープレ・CRM入力・問い合わせ対応の順番を見せる</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dr">●</span>入社後に成果が出るまでの支援が薄いと早期離脱</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">初月はロープレ、CRM入力、問い合わせ対応など成功しやすい業務から開始</div></div>
+        </div>
+      </div>
+    </article>
+  </div>
+  <div class="phase-dots" id="phaseDots"><button type="button" class="phase-dot active" data-index="0" aria-label="日常"></button><button type="button" class="phase-dot" data-index="1" aria-label="認知"></button><button type="button" class="phase-dot" data-index="2" aria-label="興味"></button><button type="button" class="phase-dot" data-index="3" aria-label="検討"></button><button type="button" class="phase-dot" data-index="4" aria-label="応募"></button><button type="button" class="phase-dot" data-index="5" aria-label="面談"></button><button type="button" class="phase-dot" data-index="6" aria-label="就職"></button>
+  </div>
+</div>
+<div class="tbl-wrap desktop-only">
 <table class="cjm">
   <thead>
     <tr>
@@ -105,8 +371,9 @@
 
 <footer class="footer">
   <a href="https://tre-pro.co.jp/" target="_blank" rel="noopener">株式会社トレプロ</a>
-  ｜採用カスタマージャーニーマップ v2.0（SM：田中 翔太）
+  ｜採用カスタマージャーニーマップ v3.0（SM：田中 翔太）
 </footer>
 
+<script src="app.js"></script>
 </body>
 </html>

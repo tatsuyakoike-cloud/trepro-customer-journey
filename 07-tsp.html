@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="detail-page">
 
 <header class="site-header">
   <div class="site-header-inner">
@@ -18,8 +18,7 @@
       <span class="brand-ja">採用カスタマージャーニー</span>
     </a>
     <div class="site-header-meta">
-      <a class="back-link" href="index.html">← 一覧へ</a>
-      <span class="header-date">2026-06-22　v2.0</span>
+      <a class="btn-back" href="index.html">← 一覧に戻る</a>
     </div>
   </div>
 </header>
@@ -40,7 +39,274 @@
 </div>
 
 <div class="wrapper">
-<div class="tbl-wrap">
+
+<div class="mobile-cjm">
+  <p class="swipe-hint"><span class="swipe-icon">↔</span> 左右にスワイプして各ステップを見る</p>
+  <div class="phase-scroll" id="phaseScroll">
+    <article class="phase-card" data-phase="0">
+      <header class="phase-card-head p1">
+        <span class="phase-num">Step 1</span>
+        <span class="phase-name">日常</span>
+        <span class="phase-score">感情 4/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>LinkedIn、ビズリーチ、副業/業務委託媒体で高単価マーケ案件を探す</li><li>実績を棚卸し</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「専門性をもっと高く評価されたい」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">🔍</span><span class="emo-label">機会探索</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pB">LinkedIn</span><span class="pill pF">ビズリーチ</span><span class="pill pA">業務委託媒体</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">専門人材は求人文よりも報酬モデル・KPI・案件の質で判断する</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dr">●</span>高単価訴求だけでは期待値過多・怪しさが出る</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">月120万円は『スキル・成果次第』とし、活躍例を具体化</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="1">
+      <header class="phase-card-head p2">
+        <span class="phase-num">Step 2</span>
+        <span class="phase-name">認知</span>
+        <span class="phase-score">感情 7/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>『月120万円以上も可能』『全国フルリモート』『SNS戦略をリード』に反応</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「後方支援で高報酬は魅力」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">👀</span><span class="emo-label">強い興味</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pA">求人タイトル</span><span class="pill pA">スカウト</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">高報酬訴求から実績例・役割範囲にすぐ移動できる導線が必要</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dr">●</span>『SNS戦略』の具体的な業務範囲が伝わらないと応募判断できない</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">テクニカルサポート、分析、営業同行、ナレッジ化を4領域で整理</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="2">
+      <header class="phase-card-head p3">
+        <span class="phase-num">Step 3</span>
+        <span class="phase-name">興味</span>
+        <span class="phase-score">感情 8/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>必須条件、広告運用/SNS運用/分析経験、担当範囲、営業同行の有無を確認</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「必要経験は満たせそう」</li><li>「どの程度の成果責任か知りたい」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">😎</span><span class="emo-label">自信</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pA">求人詳細</span><span class="pill pF">必須条件</span><span class="pill pF">実績例</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">必須条件をチェックリスト化し、自分が該当するか瞬時に判断できるようにする</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dr">●</span>必須条件の組み合わせが分かりづらい</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">『いずれか2つ』の条件をチェックリスト化</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="3">
+      <header class="phase-card-head p4">
+        <span class="phase-num">Step 4</span>
+        <span class="phase-name">検討</span>
+        <span class="phase-score">感情 6/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>コンサル案件、広告運用案件、事業会社マーケ職と比較</li><li>成果報酬や稼働量を確認</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「月120万円は魅力だが再現性が気になる」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">🤔</span><span class="emo-label">慎重</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pF">報酬例</span><span class="pill pF">インセンティブ説明</span><span class="pill pE">面談前資料</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">フォーム改善は主ボトルネックではない</div><div class="ux">インセンティブ算定、営業同行頻度、成果責任の明確化が重要</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dy">●</span>インセンティブの算定が不明だと検討が止まる</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">報酬モデルと評価KPIを面談前に共有</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="4">
+      <header class="phase-card-head p5">
+        <span class="phase-num">Step 5</span>
+        <span class="phase-name">応募</span>
+        <span class="phase-score">感情 7/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>運用実績、分析レポート、改善事例、広告媒体経験を整理して応募</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「実績資料を出せば通りそう」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">👍</span><span class="emo-label">前向き</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pE">応募フォーム</span><span class="pill pF">実績資料</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">フォームは実績資料/広告運用結果/改善事例をURLで任意提出できる設計にする</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dr">●</span>実績開示の範囲に迷う</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">応募時に提出歓迎：運用実績、改善前後、レポートサンプルを明記</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="5">
+      <header class="phase-card-head p6">
+        <span class="phase-num">Step 6</span>
+        <span class="phase-name">面談</span>
+        <span class="phase-score">感情 6/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>面談でKPI、担当案件数、期待成果、インセンティブ条件、営業との役割分担を確認</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「営業色が強すぎるなら合わないかも」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">🔎</span><span class="emo-label">見極め</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pE">オンライン面談</span><span class="pill pE">技術面談</span><span class="pill pF">営業責任者</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">面談前にKPI・担当案件数・営業との分担を提示する</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dy">●</span>営業同行の頻度が不明だとミスマッチ</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">面談で営業同行頻度・役割分担を確認</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="6">
+      <header class="phase-card-head p7">
+        <span class="phase-num">Step 7</span>
+        <span class="phase-name">就職</span>
+        <span class="phase-score">感情 9/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>技術支援、投稿分析、レポート、戦略立案、商談同席、社内研修を担当</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「数字で価値を出せば報酬も伸ばせる」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">⭐</span><span class="emo-label">プロ意識</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pF">レポート</span><span class="pill pF">広告管理画面</span><span class="pill pE">Slack</span><span class="pill pF">商談同席</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">質問対応ルールとレポートテンプレを渡し、専門業務に集中できる導線を作る</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dr">●</span>社内からの質問対応が多すぎると専門業務に集中できない</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">質問対応の窓口/時間帯/優先順位ルールを整備</div></div>
+        </div>
+      </div>
+    </article>
+  </div>
+  <div class="phase-dots" id="phaseDots"><button type="button" class="phase-dot active" data-index="0" aria-label="日常"></button><button type="button" class="phase-dot" data-index="1" aria-label="認知"></button><button type="button" class="phase-dot" data-index="2" aria-label="興味"></button><button type="button" class="phase-dot" data-index="3" aria-label="検討"></button><button type="button" class="phase-dot" data-index="4" aria-label="応募"></button><button type="button" class="phase-dot" data-index="5" aria-label="面談"></button><button type="button" class="phase-dot" data-index="6" aria-label="就職"></button>
+  </div>
+</div>
+<div class="tbl-wrap desktop-only">
 <table class="cjm">
   <thead>
     <tr>
@@ -105,8 +371,9 @@
 
 <footer class="footer">
   <a href="https://tre-pro.co.jp/" target="_blank" rel="noopener">株式会社トレプロ</a>
-  ｜採用カスタマージャーニーマップ v2.0（TSP：伊藤 健）
+  ｜採用カスタマージャーニーマップ v3.0（TSP：伊藤 健）
 </footer>
 
+<script src="app.js"></script>
 </body>
 </html>

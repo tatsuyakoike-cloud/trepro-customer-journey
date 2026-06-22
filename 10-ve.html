@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="detail-page">
 
 <header class="site-header">
   <div class="site-header-inner">
@@ -18,8 +18,7 @@
       <span class="brand-ja">採用カスタマージャーニー</span>
     </a>
     <div class="site-header-meta">
-      <a class="back-link" href="index.html">← 一覧へ</a>
-      <span class="header-date">2026-06-22　v2.0</span>
+      <a class="btn-back" href="index.html">← 一覧に戻る</a>
     </div>
   </div>
 </header>
@@ -40,7 +39,274 @@
 </div>
 
 <div class="wrapper">
-<div class="tbl-wrap">
+
+<div class="mobile-cjm">
+  <p class="swipe-hint"><span class="swipe-icon">↔</span> 左右にスワイプして各ステップを見る</p>
+  <div class="phase-scroll" id="phaseScroll">
+    <article class="phase-card" data-phase="0">
+      <header class="phase-card-head p1">
+        <span class="phase-num">Step 1</span>
+        <span class="phase-name">日常</span>
+        <span class="phase-score">感情 4/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>TikTok/YouTube Shortsを見ながら、動画編集職・SNS運用職を検索</li><li>制作実績を整理</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「編集スキルを仕事にしたい」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">✨</span><span class="emo-label">憧れ</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pB">TikTok</span><span class="pill pB">Instagram</span><span class="pill pF">YouTube</span><span class="pill pA">求人媒体</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">動画編集者はSNS実績・制作物で判断するため、求人から制作実績への導線が重要</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dr">●</span>週5出社がネックになり、リモート志向の候補者が離脱</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">常駐のメリット：即時FB、チーム制作、成長速度を明確に訴求</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="1">
+      <header class="phase-card-head p2">
+        <span class="phase-num">Step 2</span>
+        <span class="phase-name">認知</span>
+        <span class="phase-score">感情 7/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>『SNS総再生15億回』『AIを活用して動画編集』『企画・撮影・編集すべて経験』に反応</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「15億回のノウハウは学びたい」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">👀</span><span class="emo-label">興味</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pA">求人タイトル</span><span class="pill pF">制作実績</span><span class="pill pF">会社SNS</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">「15億回」「AI活用」から制作例・チーム環境にすぐ進める構成にする</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dr">●</span>応募条件『2つ以上』が分かりにくい</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">応募条件をチェックボックス形式で掲載</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="2">
+      <header class="phase-card-head p3">
+        <span class="phase-num">Step 3</span>
+        <span class="phase-name">興味</span>
+        <span class="phase-score">感情 8/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>応募条件の経験2つ以上、勤務時間、週5出社、給与、担当業界を確認</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「週5出社は大変だけど成長は速そう」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">⚡</span><span class="emo-label">期待</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pA">求人詳細</span><span class="pill pE">応募条件</span><span class="pill pF">担当案件</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">応募条件2つ以上をチェック式で見せると自己判断しやすい</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dr">●</span>AI活用の具体例が魅力として伝わりきらない</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">AI活用例：自動化、QC、画像/動画生成、BGM/ナレーションを上部に配置</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="3">
+      <header class="phase-card-head p4">
+        <span class="phase-num">Step 4</span>
+        <span class="phase-name">検討</span>
+        <span class="phase-score">感情 6/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>リモート編集案件や制作会社求人と比較</li><li>常駐のメリット/負担を検討</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「編集だけでなく企画・分析もできるのは強い」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">🤔</span><span class="emo-label">慎重</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pF">給与条件</span><span class="pill pF">勤務地</span><span class="pill pF">出社条件</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">週5出社が大きな検討ポイント</div><div class="ux">常駐メリットを先に示さないと離脱する</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dr">●</span>編集だけやりたい人と、企画までやりたい人でミスマッチが出る</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">『編集→企画→撮影→分析』のキャリアステップを提示</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="4">
+      <header class="phase-card-head p5">
+        <span class="phase-num">Step 5</span>
+        <span class="phase-name">応募</span>
+        <span class="phase-score">感情 7/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>ポートフォリオ、編集ソフト経験、SNS運用経験、AI活用経験をまとめて応募</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「ポートフォリオを見せれば伝わるはず」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">😬</span><span class="emo-label">緊張</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pE">応募フォーム</span><span class="pill pF">ポートフォリオ</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">ポートフォリオ提出は重要だが離脱要因にもなる</div><div class="ux">URL提出、後送可、参考例を明記する</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dy">●</span>ポートフォリオ提出の有無が曖昧だと応募しにくい</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">応募時にポートフォリオ/編集URL/自主制作歓迎と明記</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="5">
+      <header class="phase-card-head p6">
+        <span class="phase-num">Step 6</span>
+        <span class="phase-name">面談</span>
+        <span class="phase-score">感情 6/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>面談で制作フロー、OJT、担当案件、撮影参加頻度、評価基準を確認</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「チームのスピード感についていけるか」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">🔎</span><span class="emo-label">見極め</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pE">オンライン面接</span><span class="pill pE">最終面接</span><span class="pill pF">OJT説明</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">面談前に制作フローとOJTの流れを送る</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dr">●</span>面談で制作スピードへの適性を確認する必要</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">面談で制作スピード、チーム制作、トレンド感度を確認</div></div>
+        </div>
+      </div>
+    </article>
+    <article class="phase-card" data-phase="6">
+      <header class="phase-card-head p7">
+        <span class="phase-num">Step 7</span>
+        <span class="phase-name">就職</span>
+        <span class="phase-score">感情 9/10</span>
+      </header>
+      <div class="phase-card-body">
+        <div class="m-row m-row-">
+          <div class="m-row-label">👣 行動</div>
+          <div class="m-row-body"><ul><li>オフィスでチーム制作</li><li>編集、サムネ、企画、撮影、数値分析、AI活用を担当</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💭 思考</div>
+          <div class="m-row-body"><ul><li>「制作側をマスターしてキャリアを広げたい」</li></ul></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">❤️ 感情</div>
+          <div class="m-row-body"><span class="emo">📈</span><span class="emo-label">成長実感</span></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">📱 タッチポイント</div>
+          <div class="m-row-body"><span class="pill pF">オフィス</span><span class="pill pF">編集ソフト</span><span class="pill pF">AIツール</span><span class="pill pF">チーム定例</span></div>
+        </div>
+        <div class="m-row m-row-UX">
+          <div class="m-row-label">🔗 UX・動線</div>
+          <div class="m-row-body"><div class="ux">初月OJT、案件ジャンル、使用AIツールを一覧化する</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">⚠️ 課題</div>
+          <div class="m-row-body"><div class="iss"><span class="dr">●</span>入社後に案件ジャンルが広く戸惑う可能性</div></div>
+        </div>
+        <div class="m-row m-row-">
+          <div class="m-row-label">💡 改善機会</div>
+          <div class="m-row-body"><div class="imp">業界別の案件例と初月OJTの流れを用意</div></div>
+        </div>
+      </div>
+    </article>
+  </div>
+  <div class="phase-dots" id="phaseDots"><button type="button" class="phase-dot active" data-index="0" aria-label="日常"></button><button type="button" class="phase-dot" data-index="1" aria-label="認知"></button><button type="button" class="phase-dot" data-index="2" aria-label="興味"></button><button type="button" class="phase-dot" data-index="3" aria-label="検討"></button><button type="button" class="phase-dot" data-index="4" aria-label="応募"></button><button type="button" class="phase-dot" data-index="5" aria-label="面談"></button><button type="button" class="phase-dot" data-index="6" aria-label="就職"></button>
+  </div>
+</div>
+<div class="tbl-wrap desktop-only">
 <table class="cjm">
   <thead>
     <tr>
@@ -105,8 +371,9 @@
 
 <footer class="footer">
   <a href="https://tre-pro.co.jp/" target="_blank" rel="noopener">株式会社トレプロ</a>
-  ｜採用カスタマージャーニーマップ v2.0（VE：岡本 佳奈）
+  ｜採用カスタマージャーニーマップ v3.0（VE：岡本 佳奈）
 </footer>
 
+<script src="app.js"></script>
 </body>
 </html>
